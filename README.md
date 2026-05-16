@@ -6,17 +6,7 @@ Esta carpeta concentra la línea Scala del repositorio Unsam-algoritmic. No est�
 
 El proyecto combina problemas clásicos de algoritmia con prácticas de ingeniería orientadas a datos: búsqueda binaria y lineal, parsing recursivo, simulación, lógica contable, procesamiento tabular, visualización y uso de Spark para cargas y transformaciones sobre datasets reales.
 
-## Por qué posiciona al repositorio en la industria algorítmica
 
-La industria algorítmica valora repositorios que no solo resuelven ejercicios, sino que muestran transición entre fundamentos y aplicaciones. En esta base Scala aparecen tres capas relevantes:
-
-- Base algorítmica: implementación de búsqueda lineal, búsqueda binaria, recorridos recursivos y estructuras simples.
-- Modelado y dominio: ejercicios de hipotecas, costos de camión, manipulación de texto, colas y control operativo.
-- Datos y escalabilidad: uso de Apache Spark, Breeze y pipelines sobre CSV y parquet para análisis, simulación y machine learning.
-
-Ese cruce es importante porque refleja un perfil técnico que puede conversar tanto con entrevistas algorítmicas como con equipos de data engineering, analytics engineering o plataformas de cálculo científico.
-
-## Áreas cubiertas en el código
 
 ### Algoritmos y estructuras
 
@@ -66,7 +56,7 @@ Este stack es especialmente relevante para posicionamiento profesional porque Sc
 - `unsam/src/main/scala/mlflow`: primeras aproximaciones a análisis financiero y modelos.
 - `unsam/src/test/scala`: validación automática con ScalaTest.
 
-## Relación con el ecosistema Scala de Suiza
+## Relación con el ecosistema Scala
 
 Para posicionar este repositorio en una conversación más amplia, conviene conectarlo con instituciones y comunidades que empujan el lenguaje en investigación, formación avanzada e industria.
 
