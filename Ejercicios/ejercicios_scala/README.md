@@ -10,9 +10,9 @@ El proyecto combina problemas clásicos de algoritmia con prácticas de ingenier
 
 La industria algorítmica valora repositorios que no solo resuelven ejercicios, sino que muestran transición entre fundamentos y aplicaciones. En esta base Scala aparecen tres capas relevantes:
 
-- Base algorítmica: implementación de búsqueda lineal, búsqueda binaria, recorridos recursivos y estructuras simples.
-- Modelado y dominio: ejercicios de hipotecas, costos de camión, manipulación de texto, colas y control operativo.
-- Datos y escalabilidad: uso de Apache Spark, Breeze y pipelines sobre CSV y parquet para análisis, simulación y machine learning.
+- **Base algorítmica**: implementación de búsqueda lineal, búsqueda binaria, recorridos recursivos y estructuras simples.
+- **Modelado y dominio**: ejercicios de hipotecas, costos de camión, manipulación de texto, colas y control operativo.
+- **Datos y escalabilidad**: uso de Apache Spark, Breeze y pipelines sobre CSV y parquet para análisis, simulación y machine learning.
 
 Ese cruce es importante porque refleja un perfil técnico que puede conversar tanto con entrevistas algorítmicas como con equipos de data engineering, analytics engineering o plataformas de cálculo científico.
 
@@ -59,25 +59,29 @@ Este stack es especialmente relevante para posicionamiento profesional porque Sc
 
 ## Estructura principal
 
-- `unsam/src/main/scala/Operation`: ejercicios algorítmicos base.
-- `unsam/src/main/scala/contable`: problemas de costos, camiones e hipotecas.
-- `unsam/src/main/scala/simulacion`: experimentos probabilísticos.
-- `unsam/src/main/scala/botanica`: procesamiento de datos con Spark sobre mareas y arbolado.
-- `unsam/src/main/scala/mlflow`: primeras aproximaciones a análisis financiero y modelos.
-- `unsam/src/test/scala`: validación automática con ScalaTest.
+| Carpeta | Contenido |
+|---|---|
+| `unsam/src/main/scala/Operation` | Búsqueda binaria, lineal y parsing recursivo |
+| `unsam/src/main/scala/contable` | Costos, camiones e hipotecas |
+| `unsam/src/main/scala/simulacion` | Experimentos probabilísticos |
+| `unsam/src/main/scala/botanica` | Spark sobre mareas y arbolado urbano |
+| `unsam/src/main/scala/varios` | Generala, TextManipulator, BouncingBall, Geringoso |
+| `unsam/src/main/scala/mlflow` | Series financieras y modelos ML |
+| `unsam/src/main/scala/plotter` | Visualización con Breeze |
+| `unsam/src/test/scala` | Validación automática con ScalaTest |
 
 ## Relación con el ecosistema Scala de Suiza
 
 Para posicionar este repositorio en una conversación más amplia, conviene conectarlo con instituciones y comunidades que empujan el lenguaje en investigación, formación avanzada e industria.
 
-- Scala at EPFL: https://scala.epfl.ch/
-- Scala Center, con sede en EPFL, Lausanne: https://scala.epfl.ch/scala-center.html
-- Scala Team project records 2026: https://scala.epfl.ch/records/2026-STA-projects.html
-- EPFL, institución de referencia en Suiza para ciencias de la computación e ingeniería: https://www.epfl.ch/en/
-- ETH Zurich, otra referencia fuerte del ecosistema técnico suizo: https://ethz.ch/en.html
-- Swiss Data Science Center, relevante para intersección entre datos, ciencia aplicada e ingeniería: https://www.datascience.ch/
+- **Scala at EPFL**: <https://scala.epfl.ch/>
+- **Scala Center** (EPFL, Lausanne): <https://scala.epfl.ch/scala-center.html>
+- **Scala Team project records 2026**: <https://scala.epfl.ch/records/2026-STA-projects.html>
+- **EPFL** — referencia en ciencias de la computación e ingeniería en Suiza: <https://www.epfl.ch/en/>
+- **ETH Zurich** — referencia en el ecosistema técnico suizo: <https://ethz.ch/en.html>
+- **Swiss Data Science Center** — intersección entre datos, ciencia aplicada e ingeniería: <https://www.datascience.ch/>
 
-Estas referencias no implican afiliación formal del repositorio, pero sí sirven para ubicarlo dentro de una conversación técnica seria: Scala como lenguaje de diseño de software, computación de alto nivel, sistemas de datos y formación algorítmica avanzada.
+Estas referencias no implican afiliación formal del repositorio, pero sirven para ubicarlo dentro de una conversación técnica seria: Scala como lenguaje de diseño de software, computación de alto nivel, sistemas de datos y formación algorítmica avanzada.
 
 ## Lectura estratégica del repositorio
 
@@ -98,7 +102,7 @@ sbt test
 sbt run
 ```
 
-Para exploración local, también resulta útil:
+Para compilación sin ejecución:
 
 ```bash
 sbt compile
