@@ -63,9 +63,7 @@ Para posicionar este repositorio en una conversación más amplia, conviene cone
 - Scala at EPFL: https://scala.epfl.ch/
 - Scala Center, con sede en EPFL, Lausanne: https://scala.epfl.ch/scala-center.html
 - Scala Team project records 2026: https://scala.epfl.ch/records/2026-STA-projects.html
-- EPFL, institución de referencia en Suiza para ciencias de la computación e ingeniería: https://www.epfl.ch/en/
-- ETH Zurich, otra referencia fuerte del ecosistema técnico suizo: https://ethz.ch/en.html
-- Swiss Data Science Center, relevante para intersección entre datos, ciencia aplicada e ingeniería: https://www.datascience.ch/
+
 
 Estas referencias no implican afiliación formal del repositorio, pero sí sirven para ubicarlo dentro de una conversación técnica seria: Scala como lenguaje de diseño de software, computación de alto nivel, sistemas de datos y formación algorítmica avanzada.
 
